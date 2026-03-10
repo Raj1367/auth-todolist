@@ -7,9 +7,9 @@ function App() {
 
   const { checkAuthentication, isCheckingAuth } = useUserStore();
 
-  useEffect(() => {
-    checkAuthentication()
-  }, [])
+useEffect(() => {
+  checkAuthentication();
+}, [checkAuthentication]);
 
   if(isCheckingAuth) return (<p>Loading...</p>)
 
