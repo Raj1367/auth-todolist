@@ -1,5 +1,5 @@
 
-const backendUrl = "http://localhost:8000"
+const backendUrl = "http://65.2.167.214:8000"
 
 export const backendApi = {
     signUp: {
