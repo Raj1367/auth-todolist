@@ -1,5 +1,5 @@
 
-const backendUrl = import.meta.env.VITE_API_URL;
+const backendUrl = "http://65.2.167.214:8000";
 
 export const backendApi = {
     signUp: {
